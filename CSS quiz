@@ -1,0 +1,196 @@
+
+	body {
+	  padding: 0;
+	  margin: 0;
+	  font-family: 'Oswald', sans-serif;
+	  font-size: 24px;
+	  display: flex;
+	  flex-direction: column;
+    background-color: rgba(9, 255, 255, 0.1);
+	}
+
+.quizquestions{
+  display: block;
+}
+	
+
+	h1 {
+	  font-family: 'Bungee', cursive;
+	  padding: 10px;
+	  margin: 0;
+	}
+
+	.content {
+	  margin: 0 auto;
+	  width: 80%;
+	  text-align: center;
+	  padding: 0 0 20px;
+	  flex: 1;
+	}
+
+	
+  #conta{
+    text-align: center;
+    font-size: 70px;
+    margin: -31px 0 0 46px;
+  }
+  
+#botaoResp{
+  cursor: pointer;
+    position: relative;
+    background-color: black;
+    border: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding: 12px;
+    width: 182px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    top: 30px;
+}
+
+#botaoResp span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#botaoResp span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#botaoResp:hover span {
+  padding-right: 25px;
+}
+
+#botaoResp:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+	#q1{
+margin: 0px 0px 353px 0;
+font-size: 28px;
+text-align: center
+  }
+#q2{
+      font-size: 28px;
+    margin: -341px 0 0 0px;
+    text-align: center;
+}
+
+#q3{
+font-size: 28px;
+text-align: center;
+    margin: 10px 0 2px 0px;
+
+}
+#q4{
+font-size: 28px;
+text-align: center;
+    margin: 10px 0 2px 0px;
+}
+
+#q5{
+font-size: 28px;
+text-align: center;
+    margin: 10px 0 2px 0px;
+}
+
+#mostrarRespostas{
+ display: none;
+ width: 211px;
+ padding: 27px;
+ border-radius: 50%;
+ font-size: 26px;
+ background-color: white;
+ font-family: cursive;
+ text-align: center;
+ margin: 13px 0 0 567px;
+ cursor: pointer;
+ 
+ }
+ #mostrarRespostas:hover {background-color: #ceddcf}
+
+#mostrarRespostas:active {
+  background-color: #ceddcf;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ #nome{
+   display: none;
+   margin: -28px 0 22px 0px;
+    font-size: 30px;
+    text-align: center;
+    border-style: groove;
+ }
+
+#dica {
+  margin: 56px 0 0 0;
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+
+#dica .tooltiptext {
+  visibility: hidden;
+  width: 324px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#dica .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+#dica:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+#reiniciar{
+display: none;
+ width: 211px;
+ padding: 27px;
+ border-radius: 50%;
+ font-size: 23px;
+ background-color: white;
+ font-family: cursive;
+ text-align: center;
+ margin: 13px 0 0 567px;
+ cursor: pointer;
+}
+
+ #reiniciar:hover {background-color: #ceddcf}
+
+#reiniciar:active {
+  background-color: #ceddcf;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
