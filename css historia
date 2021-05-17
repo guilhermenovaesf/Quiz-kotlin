@@ -1,0 +1,49 @@
+body{
+
+  font-family: 'Oswald', sans-serif;
+  background-color: rgba(9, 255, 255, 0.1);
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+h1{
+  font-family: 'Bungee', cursive;
+	  font-size: 40px;
+	  margin: 0;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+font-size: 30px;
+}
+h4{
+font-size: 30px;
+}
+h5{
+font-size: 30px;
+}
+h6{
+font-size: 30px;
+}
+#brPenta{
+  width: 33%;
+    height: auto;
+}
+#klose{
+   width: 33%;
+    height: auto;
+}
+#primeiraCopa{
+   width: 33%;
+    height: auto;
+}
+#uruguai{
+   width: 33%;
+    height: auto;
+}
+#catar{
+   width: 33%;
+    height: auto;
+}
