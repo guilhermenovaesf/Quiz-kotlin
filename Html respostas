@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+  
+  
+  <title>Resposta do quiz</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="hist.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Oswald" rel="stylesheet">
+  
+</head>
+
+<body>
+<h1>Respostas Quiz Copa Do Mundo</h1>
+<h2>Questão 1</h2>
+<img src="brasilPenta.jpg" alt="brPenta" id="brPenta">
+<div id="resp1">O <strong>Brasil</strong> é a única seleção pentacampeã(5 títulos) na história das copas. Seu primeiro título foi em 1958, tendo como Pelé o seu principal jogador. Logo em seguida, em 1962 ,o Brasil conquistou seu segundo título com Pelé em campo, porém, o protagonista daquela edição foi Manoel Francisco dos Santos, mais conhecido como Mané Garrincha. Em 1970, Pelé e amigos tornaram a seleção brasileira a primeira tricampeã da história, em uma copa disputada no México. Após 24 anos de jejum, Romário, Bebeto e grandes craques tornaram o Brasil tetracampeão em uma final eletrizante disputada nos pênaltis contra a Itália. Em 2002 o Brasil se sagra o único pentacampeão até os dias de hoje, em uma seleção formada por Ronaldo Fenômeno, Rivaldo, Ronaldinho Gaúcho entre outros grandes nomes do futebol brasileiro. </div>
+
+<h3>Questão 2 </h3>
+<img src="klose.jpg" alt="klose" id="klose">
+<div id="resp2">Com quatro participações em Copas (2002, 2006, 2010 e 2014) e o título na última edição, o alemão Miroslav<strong> Klose</strong> é o maior artilheiro de todos os Mundiais com 16 gols. Klose fez seu 16º gol na goleada de 7 a 1 da Alemanha no Brasil, e ultrapassou Ronaldo, que até então tinha 15 gols marcados e era o líder. Ambos os jogadores já estão aposentados do futebol e nenhum jogador em atividade está perto de atingir a marca do alemão, que deve ter um longo reinado na artilharia das copas.  </div>
+
+<h4> Questão 3 </h4>
+<img src="primeiraCopa.jpg" alt="primeiraCopa" id="primeiraCopa">
+<div id="resp3">A primeira Copa do Mundo FIFA foi disputada em<strong> 1930</strong>, com sede no Uruguai,a FIFA selecionou o Uruguai como país sede, já que o mesmo estava comemorando o centenário de sua primeira constituição. Todas as partidas foram disputadas em sua capital Montevidéu, e a partir dessa data, as copas do mundo começaram a ser disputadas quadrienalmente. Uma curiosidade, os anos de 1942 e 1946 foram os únicos os quais a Copa do Mundo não foi disputada, devido aos acontecimentos da segunda Guerra Mundial. </div>
+
+<h5>Questão 4</h5>
+<img src="Uruguai.jpg" alt="uruguai" id="uruguai">
+<div id="resp4">País sede da primeira copa, o <strong>Uruguai</strong> se sagrou vencedor do torneio em uma final disputada contra a Argentina. A Celeste Olímpica, como é chamada a seleção uruguaia, venceu a final por um placar de 4x2 e ganhou um dos seus dois títulos mundiais até os dias de hoje. Curiosamente, o segundo título de copas do mundo dos uruguaios foi em 1950, em uma copa disputada no Brasil. Na final, disputada no estádio do Maracanã no Rio do Janeiro, o Uruguai venceu a seleção da casa por 2x1, em um evento chamado de Maracanaço.</div>
+
+<h6>Questão 5</h6>
+<img src="copaCatar.jpg" alt="catar" id="catar">
+<div id="resp5">O<strong> Catar</strong> será sede da Copa do Mundo de 2022, que coincidentemente, será a vigésima segunda edição do torneio. O país mais rico do mundo, repleto de petróleo e recuros naturais, o Catar será o primeiro país do oriente médio a receber uma edição do torneio. Pela primeira vez sendo  disputada ao final do ano, a Copa do Mundo do Catar será provavelmente o primeiro grande evento mundial esportivo com a volta da presença do público após os acontecimetos da pandemia mundial causada pelo vírus da COVID-19.</div>
+
+
+
+</body>
+
+
+
+</html>
+
