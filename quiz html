@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+  
+  
+  <title>Quiz Copa do Mundo</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Oswald" rel="stylesheet">
+  
+</head>
+<body onkeypress="main.key_event(event)">
+  
+  <div class="content">
+  <h1>Quiz copa do mundo</h1>
+  <div id="quizquestions">
+  
+  
+  <label for="question1"><p>Questão 1: Quem é o maior campeão da história das copas?</label>
+  <input id="question1" type="text" name="questionOne" class="questions">
+  <br>
+  
+  <label for="question2"><p>Questão 2: Quem é o maior artilheiro de todas as copas do mundo?</label>
+  <input id="question2" type="text" name="questionTwo" class="questions">
+  <br>
+  
+  <label for="question3"><p>Questão 3: Em que ano foi disputada a primeira edição?</label>
+  <input id="question3" type="text" name="questionThree" class="questions">
+  <br>
+  
+  <label for=med"question4"><p>Questão 4: Quem se sagrou campeão da primeira edição?</label>
+  <input id="question4" type="text" name="questionFour" class="questions">
+  <br>
+  
+  <label for="question5"><p>Questão 5: Qual país irá sediar a próxima copa do mundo em 2022?</label>
+  <input id="question5" type="text" name="questionFive" class="questions">
+  <br>
+  </div>
+
+<div id="dica">Passe o mouse para obter dicas das respostas <span class="tooltiptext">Questão1: Essa seleção já ganhou 5 vezes a copa do mundo
+  <br>Questão2: Esse jogador é alemão <br>Questão3: Essa copa foi disputada doze anos depois do fim da I Guerra <br>Questão4: A seleção campeã é Sul-Americana <br>Questão5: É conhecido como o país mais rico do mundo</span></div>
+
+  <button id="botaoResp" onclick="main.submitAnswers()"><span>Enviar Respostas!</span></button>
+  </div>
+  <div id="nome"></div>
+  
+  <div id="q1"></div>
+  <div id="q2"></div>
+  <div id="q3"></div>
+  <div id="q4"></div>
+  <div id="q5"></div>
+  
+
+  <button id="mostrarRespostas" onclick="main.mostrarRespostas()">Confira a História de todas as respostas</button>  
+
+<button id="reiniciar" onclick="main.reiniciar()">Reiniciar quiz</button>
+
+     
+  <script src="kotlin.js"></script>
+<script src = "main.js"></script>
+
+</body>
+</html>
+
